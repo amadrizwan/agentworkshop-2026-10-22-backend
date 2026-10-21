@@ -1,0 +1,4 @@
+<!doctype html><meta charset="utf-8"><title>Delivery test</title>
+<body style="margin:0;font-family:system-ui;background:#0b1220;color:#e8edf4;display:grid;place-items:center;height:100vh">
+<div style="text-align:center"><div style="letter-spacing:.1em;color:#f2a93b">DELIVERY TEST</div><h1 id="s">…</h1></div>
+<script>fetch('/t/provlag/').then(r=>r.json()).then(d=>document.getElementById('s').textContent=d.ok?'backend answers':'?').catch(()=>{document.getElementById('s').textContent='no backend yet'})</script>
