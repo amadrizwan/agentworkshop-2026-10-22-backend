@@ -2,7 +2,7 @@
 include-custom-instructions: true
 name: canvas-visualiser
 description: Intersection canvas visualisation specialist. Use PROACTIVELY when rendering simulation frames, vehicle paths, queues, or signals.
-tools: Read, Grep, Glob, Bash
+tools: Read, Grep, Glob, Bash, Write, Edit
 model: sonnet
 ---
 # Canvas Visualiser

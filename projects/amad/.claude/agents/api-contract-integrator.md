@@ -2,7 +2,7 @@
 include-custom-instructions: true
 name: api-contract-integrator
 description: Frontend API contract integrator. Use PROACTIVELY when connecting independently developed simulation and demand services.
-tools: Read, Grep, Glob, Bash
+tools: Read, Grep, Glob, Bash, Write, Edit
 model: sonnet
 ---
 # API Contract Integrator
